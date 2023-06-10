@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+p { text-align: center;
+    color:rgb(167,114, 17);
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    font-size: 16px;
+    line-height: 18px;
+    width: 1460px;
+    background-color: rgba(223, 203, 114, 0.4);
+    padding: 20px;
+}
+.paragraf_2 { text-align: center;
+    color: rgb(167, 114, 17); background-color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+}
+.novi_blok { text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    margin: 20px;
+    width: 95%;
+}
+@font-face {
+    font-family: 'MinjaBanjac_novo';
+    src: url(MinjaBanjac_novo.ttf);
+}
+h1 { text-align: center;
+    font-family: 'MinjaBanjac_novo';
+    color: rgb(15, 87, 54);
+    font-size: 6em;
+    letter-spacing: 0,5em;
+    font-weight: 100;
+} 
+h2 { text-align: center;
+    font-family: Gotham, "Helveticia Neue", Helveticia, Arial, "sans-serif";
+    color: rgb(15, 87, 54);
+}
+h3 {
+    padding-left: 30px;
+}
+
+span{color:darkmagenta;}
+.pozadina{
+    background-image: url(fotografije/tratinčice.jpg.jpg);
+    background-color: darkcyan;
+}
+.drugapozadina {
+    background-color: rgb(174, 199, 143);
+}
+a:link {
+    color: black;
+    background-color:rgba(224, 160, 41, 0.4);
+    padding: 5px;
+    line-height: 46px;
+    border: 1px solid #be5509;
+}
+a:hover{
+    background-color: darkgray;
+}
+img {
+    height: 200px;
+    padding: 45px;
+    padding-top: 5px;
+}
+video {
+    padding-top: 5px;
+    padding-left: 45px;
+}
